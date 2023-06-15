@@ -29,8 +29,17 @@ Anaconda - Python 3.7
           num_words += len(word)
        print("Number of words={}".format(num_words))
 ```
-
+#Text File:
+```
+       with open("text.txt",'w')as fp:
+         fp.write("Hello World")
+         fp.write("\nWelcome to Python")
+         fp.write("\nHave a Good Day")
+```
 #OUTPUT:
+
+![image](https://github.com/Dhiyanesh24/Word-count/assets/118362288/156d1a03-bf2a-46e6-9956-492e3682ee70)
+
 
 
 
