@@ -17,21 +17,22 @@ Anaconda - Python 3.7
 
 ### Step 6: End the program.
 
-## PROGRAM:
-     #Program to count the words in a file
-     #Developed by: Dhiyaneshwar P
-     #RegisterNumber: 212222110009
-     fname=input("enter the file name:")
-     num_words=0
-     with open(fname,'r') as f:
-       for line in f:
-        words=line.split()
-        num_words+=len(words)
-     print('Number of words:',num_words)
+#PROGRAM:
+```
+       #Developed by: Dhiyaneshwar P
+       #RegisterNumber: 212222110009
+       num_words =0
+       file1 = open("text.txt", "r")
+       with open('text.txt','r') as file1:
+       for i in file1:
+          word =i.split()
+          num_words += len(word)
+       print("Number of words={}".format(num_words))
+```
 
 #OUTPUT:
 
-![244876606-8d7acc0c-c90d-41e2-bd0a-714ad5fdea1a](https://github.com/Dhiyanesh24/Word-count/assets/118362288/8a67879f-fe08-448f-9420-1267546f3aea)
+
 
    
 
