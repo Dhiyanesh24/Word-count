@@ -32,6 +32,7 @@ Anaconda - Python 3.7
 #OUTPUT:
 ![image](https://github.com/Dhiyanesh24/Word-count/assets/118362288/74202751-b7be-422d-adfe-b23c201b236c)
 
+![image](https://github.com/Dhiyanesh24/Word-count/assets/118362288/708fe0de-8d50-432d-8148-8be3a42f6c83)
 
 
    
