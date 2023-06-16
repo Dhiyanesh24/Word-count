@@ -21,25 +21,16 @@ Anaconda - Python 3.7
 ```
        #Developed by: Dhiyaneshwar P
        #RegisterNumber: 212222110009
-       num_words =0
-       file1 = open("text.txt", "r")
-       with open('text.txt','r') as file1:
-       for i in file1:
-          word =i.split()
-          num_words += len(word)
-       print("Number of words={}".format(num_words))
-```
-#Text File:
-```
-       with open("text.txt",'w')as fp:
-         fp.write("Hello World")
-         fp.write("\nWelcome to Python")
-         fp.write("\nHave a Good Day")
-```
+       fname=input("enter the file name:")
+       num_words=0
+       with open(fname,'r') as f:
+         for line in f:
+          words=line.split()
+          num_words+=len(words)
+       print('Number of words:',num_words)
+
 #OUTPUT:
-
-![image](https://github.com/Dhiyanesh24/Word-count/assets/118362288/156d1a03-bf2a-46e6-9956-492e3682ee70)
-
+![image](https://github.com/Dhiyanesh24/Word-count/assets/118362288/74202751-b7be-422d-adfe-b23c201b236c)
 
 
 
