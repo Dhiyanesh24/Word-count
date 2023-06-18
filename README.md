@@ -5,7 +5,7 @@ To write a python program for getting the word count from a text.
 PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
-### Step 1: Open the file in read mode and handle it in test moode.
+### Step 1: Open the file in read mode and handle it in test mode.
 
 ### Step 2: Read the text using read() function.
  
@@ -19,20 +19,21 @@ Anaconda - Python 3.7
 
 #PROGRAM:
 ```
-       #Developed by: Dhiyaneshwar P
-       #RegisterNumber: 212222110009
-       fname=input("enter the file name:")
-       num_words=0
-       with open(fname,'r') as f:
-         for line in f:
-          words=line.split()
-          num_words+=len(words)
-       print('Number of words:',num_words)
+#Developed by: Dhiyaneshwar P
+#RegisterNumber: 212222110009
+fname=input("enter the file name:")
+num_words=0
+with open(fname,'r') as f:
+for line in f:
+  words=line.split()
+   num_words+=len(words)
+print('Number of words:',num_words)
 
-#OUTPUT:
-![image](https://github.com/Dhiyanesh24/Word-count/assets/118362288/74202751-b7be-422d-adfe-b23c201b236c)
+## OUTPUT:
+```
+![image](https://github.com/Dhiyanesh24/Word-count/assets/118362288/061941df-ef62-4bf1-bc45-fa5f6b4833a7)
 
-![image](https://github.com/Dhiyanesh24/Word-count/assets/118362288/708fe0de-8d50-432d-8148-8be3a42f6c83)
+
 
 
    
